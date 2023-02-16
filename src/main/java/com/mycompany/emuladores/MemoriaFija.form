@@ -29,7 +29,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" attributes="0">
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                           <Component id="jSeparator1" max="32767" attributes="0"/>
@@ -56,12 +56,13 @@
                                       </Group>
                                   </Group>
                                   <Group type="102" attributes="0">
-                                      <Component id="jButton1" min="-2" pref="125" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="clear7" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
-                                          <Component id="clear8" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
-                                      </Group>
+                                      <EmptySpace min="-2" pref="212" max="-2" attributes="0"/>
+                                      <Component id="clear8" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jButton2" min="-2" pref="125" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="clear7" min="-2" pref="20" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -107,7 +108,7 @@
                               </Group>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jButton2" min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="125" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                               <Component id="clear9" min="-2" pref="20" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
@@ -184,64 +185,69 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="68" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="barra1" max="32767" attributes="0"/>
-                          <Component id="lblText1" min="-2" max="-2" attributes="0"/>
-                          <Component id="clear1" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="barra2" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="lblText2" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jButton1" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="68" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="barra1" max="32767" attributes="0"/>
+                                  <Component id="lblText1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clear1" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="barra2" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="lblText2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="clear3" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="barra3" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="lblText3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="clear4" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="barra4" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="lblText4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="clear5" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="barra5" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="lblText5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="clear6" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="barra6" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="lblText6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="clear7" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="clear8" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="barra7" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="lblText7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="barra8" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="clear9" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="lblText8" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
-                          <Component id="clear3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="barra3" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="lblText3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="clear4" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="barra4" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="lblText4" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="clear5" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="barra5" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="lblText5" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="clear6" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="barra6" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="lblText6" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="clear7" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="clear8" min="-2" pref="20" max="-2" attributes="0"/>
-                          <Component id="barra7" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="lblText7" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="barra8" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="clear9" min="-2" pref="20" max="-2" attributes="0"/>
-                          <Component id="lblText8" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="66" max="32767" attributes="0"/>
                   </Group>
@@ -351,13 +357,11 @@
                       </Group>
                       <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                       <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton1" min="-2" pref="34" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton2" min="-2" pref="34" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="76" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
