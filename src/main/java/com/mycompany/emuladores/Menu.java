@@ -45,7 +45,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("Dinamico");
+        jButton3.setText("Dinámico");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -53,7 +53,7 @@ public class Menu extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel1.setText("Emuladores de Gestion de Memoria");
+        jLabel1.setText("Emuladores de Gestión de Memoria");
 
         jLabel2.setText("Con particiones del mismo y diferente tamaño");
 
